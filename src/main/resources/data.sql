@@ -1,18 +1,18 @@
-CREATE SCHEMA jungle;
+CREATE DATABASE IF NOT EXISTS jungle;
 
 CREATE table jungle.animal
 (
-  id   INT,
-  name VARCHAR(50),
-  legs INT,
+    id   INT,
+    name VARCHAR(50),
+    legs INT,
 
-  PRIMARY KEY (id)
+    PRIMARY KEY (id)
 );
 CREATE table jungle.food
 (
-  id   INT,
-  name VARCHAR(50),
-  PRIMARY KEY (id)
+    id   INT,
+    name VARCHAR(50),
+    PRIMARY KEY (id)
 );
 
 
